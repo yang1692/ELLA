@@ -1,0 +1,9 @@
+classes/
+maven-archiver/
+maven-status/
+surefire-reports/
+*.timestamp
+logs/
+target/
+*.class
+/LogisticRegression/target/

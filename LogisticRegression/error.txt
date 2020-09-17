@@ -1,0 +1,183 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.mycompany.app:LogisticRegression >----------------
+[INFO] Building LogisticRegression 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ LogisticRegression ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/yk/lifelong-learning/LogisticRegression/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ LogisticRegression ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /home/yk/lifelong-learning/LogisticRegression/target/classes
+[INFO] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java: /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java uses or overrides a deprecated API.
+[INFO] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[5,33] cannot find symbol
+  symbol:   class LayerFactory
+  location: package org.deeplearning4j.nn.api
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[10,44] package org.deeplearning4j.nn.layers.factory does not exist
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[14,17] package org.junit does not exist
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[20,24] package org.junit does not exist
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[20,1] static import only from classes and interfaces
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[24,6] cannot find symbol
+  symbol:   class Test
+  location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[44,6] cannot find symbol
+  symbol:   class Test
+  location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[76,6] cannot find symbol
+  symbol:   class Test
+  location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[36,25] cannot find symbol
+  symbol:   variable LayerFactories
+  location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[38,24] cannot find symbol
+  symbol:   variable LayerFactories
+  location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[40,9] cannot find symbol
+  symbol:   method assertEquals(int,long)
+  location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[48,75] cannot find symbol
+  symbol:   method momentum(float)
+  location: class org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[62,28] cannot find symbol
+  symbol:   method getFeatureMatrix()
+  location: variable d2 of type org.nd4j.linalg.dataset.DataSet
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[63,25] cannot find symbol
+  symbol:   variable LayerFactories
+  location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[65,88] method asList in class java.util.Arrays cannot be applied to given types;
+  required: T[]
+  found: org.deeplearning4j.optimize.listeners.ScoreIterationListener
+  reason: varargs mismatch; org.deeplearning4j.optimize.listeners.ScoreIterationListener cannot be converted to org.deeplearning4j.optimize.api.IterationListener
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[65,26] cannot find symbol
+  symbol:   variable LayerFactories
+  location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[66,24] cannot find symbol
+  symbol:   method params()
+  location: variable da of type org.deeplearning4j.nn.conf.layers.AutoEncoder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[66,36] cannot find symbol
+  symbol:   method params()
+  location: variable da of type org.deeplearning4j.nn.conf.layers.AutoEncoder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[67,31] cannot find symbol
+  symbol:   method params()
+  location: variable da of type org.deeplearning4j.nn.conf.layers.AutoEncoder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[68,24] cannot find symbol
+  symbol:   method params()
+  location: variable da of type org.deeplearning4j.nn.conf.layers.AutoEncoder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[69,11] cannot find symbol
+  symbol:   method fit(org.nd4j.linalg.api.ndarray.INDArray)
+  location: variable da of type org.deeplearning4j.nn.conf.layers.AutoEncoder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[79,9] cannot find symbol
+  symbol:   class LayerFactory
+  location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[79,37] cannot find symbol
+  symbol:   variable LayerFactories
+  location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[80,75] cannot find symbol
+  symbol:   method momentum(float)
+  location: class org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[93,28] cannot find symbol
+  symbol:   method getFeatureMatrix()
+  location: variable d2 of type org.nd4j.linalg.dataset.DataSet
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[94,25] cannot find symbol
+  symbol:   variable LayerFactories
+  location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[98,85] cannot find symbol
+  symbol:   method activate(org.nd4j.linalg.api.ndarray.INDArray)
+  location: variable da of type org.deeplearning4j.nn.conf.layers.AutoEncoder
+[INFO] 27 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.055 s
+[INFO] Finished at: 2020-07-13T14:09:25-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project LogisticRegression: Compilation failure: Compilation failure: 
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[5,33] cannot find symbol
+[ERROR]   symbol:   class LayerFactory
+[ERROR]   location: package org.deeplearning4j.nn.api
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[10,44] package org.deeplearning4j.nn.layers.factory does not exist
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[14,17] package org.junit does not exist
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[20,24] package org.junit does not exist
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[20,1] static import only from classes and interfaces
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[24,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[44,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[76,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[36,25] cannot find symbol
+[ERROR]   symbol:   variable LayerFactories
+[ERROR]   location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[38,24] cannot find symbol
+[ERROR]   symbol:   variable LayerFactories
+[ERROR]   location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[40,9] cannot find symbol
+[ERROR]   symbol:   method assertEquals(int,long)
+[ERROR]   location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[48,75] cannot find symbol
+[ERROR]   symbol:   method momentum(float)
+[ERROR]   location: class org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[62,28] cannot find symbol
+[ERROR]   symbol:   method getFeatureMatrix()
+[ERROR]   location: variable d2 of type org.nd4j.linalg.dataset.DataSet
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[63,25] cannot find symbol
+[ERROR]   symbol:   variable LayerFactories
+[ERROR]   location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[65,88] method asList in class java.util.Arrays cannot be applied to given types;
+[ERROR]   required: T[]
+[ERROR]   found: org.deeplearning4j.optimize.listeners.ScoreIterationListener
+[ERROR]   reason: varargs mismatch; org.deeplearning4j.optimize.listeners.ScoreIterationListener cannot be converted to org.deeplearning4j.optimize.api.IterationListener
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[65,26] cannot find symbol
+[ERROR]   symbol:   variable LayerFactories
+[ERROR]   location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[66,24] cannot find symbol
+[ERROR]   symbol:   method params()
+[ERROR]   location: variable da of type org.deeplearning4j.nn.conf.layers.AutoEncoder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[66,36] cannot find symbol
+[ERROR]   symbol:   method params()
+[ERROR]   location: variable da of type org.deeplearning4j.nn.conf.layers.AutoEncoder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[67,31] cannot find symbol
+[ERROR]   symbol:   method params()
+[ERROR]   location: variable da of type org.deeplearning4j.nn.conf.layers.AutoEncoder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[68,24] cannot find symbol
+[ERROR]   symbol:   method params()
+[ERROR]   location: variable da of type org.deeplearning4j.nn.conf.layers.AutoEncoder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[69,11] cannot find symbol
+[ERROR]   symbol:   method fit(org.nd4j.linalg.api.ndarray.INDArray)
+[ERROR]   location: variable da of type org.deeplearning4j.nn.conf.layers.AutoEncoder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[79,9] cannot find symbol
+[ERROR]   symbol:   class LayerFactory
+[ERROR]   location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[79,37] cannot find symbol
+[ERROR]   symbol:   variable LayerFactories
+[ERROR]   location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[80,75] cannot find symbol
+[ERROR]   symbol:   method momentum(float)
+[ERROR]   location: class org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[93,28] cannot find symbol
+[ERROR]   symbol:   method getFeatureMatrix()
+[ERROR]   location: variable d2 of type org.nd4j.linalg.dataset.DataSet
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[94,25] cannot find symbol
+[ERROR]   symbol:   variable LayerFactories
+[ERROR]   location: class com.mycompany.app.AutoEncoderExample
+[ERROR] /home/yk/lifelong-learning/LogisticRegression/src/main/java/com/mycompany/app/AutoEncoderExample.java:[98,85] cannot find symbol
+[ERROR]   symbol:   method activate(org.nd4j.linalg.api.ndarray.INDArray)
+[ERROR]   location: variable da of type org.deeplearning4j.nn.conf.layers.AutoEncoder
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
